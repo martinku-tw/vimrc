@@ -18,5 +18,9 @@ set smartindent
 " Color scheme
 colorscheme wombat256mod
 
+" Enable filetype plugin
+filetype on
+filetype plugin on
+
 " NERDTree
 nnoremap <silent> <F5> :NERDTreeToggle<CR>
