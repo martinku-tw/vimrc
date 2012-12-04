@@ -7,6 +7,9 @@ set encoding=utf-8
 " Enable 256 color
 set t_Co=256
 
+" Enable mouse
+set mouse=nv
+
 " Enable line number
 set nu
 
@@ -32,6 +35,7 @@ filetype plugin on
 nnoremap <silent> <F5> :NERDTreeToggle<CR>
 
 " Tagbar
-nmap <silent> <F4> :TagbarToggle<CR>
-let g:tagbar_ctags_bin = 'ctags'
-let g:tagbar_width = 30
+nnoremap <silent> <F4> :TagbarToggle<CR>
+let g:tagbar_left=1
+let g:tagbar_ctags_bin='ctags'
+let g:tagbar_width=30
