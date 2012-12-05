@@ -13,3 +13,6 @@
 [submodule "bundle/neocompl"]
 	path = bundle/neocompl
 	url = https://github.com/Shougo/neocomplcache.git
+[submodule "bundle/SrcExpl"]
+	path = bundle/SrcExpl
+	url = https://github.com/wesleyche/SrcExpl.git
