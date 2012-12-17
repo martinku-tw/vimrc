@@ -28,6 +28,9 @@ set smarttab
 set smartindent
 set autoindent
 
+" Auto create files from template files
+autocmd! BufNewFile * silent! 0r ~/.vim/skel/tmpl.%:e
+
 " Color scheme
 colorscheme wombat256mod
 
